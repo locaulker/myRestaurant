@@ -1,0 +1,65 @@
+/* ----------------------------------------- */
+/* GLOBAL SETTINGS */
+/* ----------------------------------------- */
+
+/* -- Global Reset -- */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.pace-running .entire-content {
+  opacity: 0;
+  transition: all 2s ease-in;
+}
+.pace-done  .entire-content {
+  opacity: 1;
+}
+
+body {
+
+
+
+  background: #fff;
+  color: #333;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300; /* Default font-weight */
+  font-size: 20px; /* Base font-size */
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  a:focus {outline: none;}
+
+  h1 {
+    color: #34495e;
+    font-weight: 300;
+    font-size: 48px;
+
+  }
+
+
+  h3 {
+    font-size: 95%;
+    color: $h3Color;
+    margin: 0 0 15px 0;
+    font-weight: 500;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
+
+}
+
+
+.clearfix {zoom: 1}
+.clearfix:after {
+   content: ".";
+   clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden;
+}
