@@ -1,8 +1,9 @@
 // Libraries
 // --------------------------------
 @import "../../bower_components/normalize-css/normalize.css";
-@import "../../bower_components/ResponsiveGridSystem/css/col.css";
-//@import "../../vendors/css/grid.css";
+@import "../../bower_components/Ionicons/css/ionicons.min.css";
+@import "../../vendors/css/grid.css";
+// @import "../../vendors/css/ionicons.min.css";
 
 
 /* VARIABLES */
@@ -19,13 +20,18 @@
 /* ----------------------------------------- */
 @import "reusable-components/_buttons";
 @import "reusable-components/_headings";
+@import "reusable-components/_white-space";
+@import "reusable-components/_lead-text";
+@import "reusable-components/_col-content";
+@import "reusable-components/_icons";
 
 
-/* SECTIONS */
+/* HEADER SECTION */
 /* ----------------------------------------- */
-@import "sections/_header-section";
+@import "sections/_section-header";
+@import "sections/_section-features";
 
 
-/* SECTIONS */
+/* MEDIA QUERIES SECTION */
 /* ----------------------------------------- */
-@import "responsive/_responsive";
+@import "responsive/_media-queries";

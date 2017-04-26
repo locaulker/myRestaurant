@@ -21,6 +21,7 @@
     "ResponsiveGridSystem": "*",
     "animate.css": "animate-css#^3.5.2",
     "waypoints": "^4.0.1",
-    "PACE": "pace#^1.0.2"
+    "PACE": "pace#^1.0.2",
+    "Ionicons": "ionicons#^2.0.1"
   }
 }

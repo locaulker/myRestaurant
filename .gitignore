@@ -32,3 +32,4 @@ public/
 temp/
 dist/
 bower_components/
+vendors/
