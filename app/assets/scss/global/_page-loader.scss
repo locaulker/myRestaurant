@@ -1,3 +1,12 @@
+/** Page Loader **/
+.pace-running .entire-content {
+  opacity: 0;
+  transition: all 2s ease-in;
+}
+.pace-done  .entire-content {
+  opacity: 1;
+}
+
 
 /** Theme Name: - loading-bar **/
 .pace .pace-progress {

@@ -1,14 +1,13 @@
 // Libraries
 // --------------------------------
 @import "../../bower_components/normalize-css/normalize.css";
-@import "../../bower_components/susy/sass/susy";
+@import "../../bower_components/ResponsiveGridSystem/css/col.css";
+//@import "../../vendors/css/grid.css";
 
 
 /* VARIABLES */
 /* ----------------------------------------- */
 @import "variables/_colors";
-
-
 
 /* BASIC SETUP */
 /* ----------------------------------------- */
@@ -16,29 +15,17 @@
 @import "global/_global";
 
 
+/* REUSEABLE COMPONENTS */
+/* ----------------------------------------- */
+@import "reusable-components/_buttons";
+@import "reusable-components/_headings";
 
 
 /* SECTIONS */
 /* ----------------------------------------- */
-@import "sections/_section-site-header";
-@import "sections/_owl-carousel";
-@import "sections/_section-slider";
-@import "sections/_section-services";
-@import "sections/_section-portfolio";
-@import "sections/_section-team";
-@import "sections/_section-testimonials";
-@import "sections/_section-blog";
-@import "sections/_section-contact";
-@import "sections/_section-footer";
-@import "sections/_section-copyright";
-
+@import "sections/_header-section";
 
 
 /* SECTIONS */
 /* ----------------------------------------- */
 @import "responsive/_responsive";
-
-
-/* REUSEABLE COMPONENTS */
-/* ----------------------------------------- */
-@import "reusable-components/_animations";

@@ -1,0 +1,75 @@
+/* ------------------------------------------------ */
+// HEADER SECTION
+/* ------------------------------------------------ */
+.site-header {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/public/images/header/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  /* ------------------------------------------------ */
+  // LOGO
+  /* ------------------------------------------------ */
+  .logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+
+
+  /* ------------------------------------------------ */
+  // MAIN NAVIGATION
+  /* ------------------------------------------------ */
+  .main-nav {
+    float: right;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-left: 40px;
+      margin-top: 63px;
+
+      a:link,
+      a:visited {
+        padding: 8px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 80%;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease-in;
+      }
+
+      a:hover,
+      a:active {
+        border-bottom: 2px solid #e67e22;
+      }
+    }
+  }
+
+  /* ------------------------------------------------ */
+  // CENTERING TEXT OVER IMAGE
+  /* ------------------------------------------------ */
+  .hero-text-box {
+    /**  METHOD 1 - Centering Text Over Image  **/
+    // position: absolute; // Relative to the window viewport
+    // top: 50%;
+    // left: 0;
+    // transform: translateY(-50%);
+    // width: 100%;
+    // text-align: center;
+
+    /**  METHOD 2 - Centering Text Over Image  **/
+    position: absolute;
+    width: 1140%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+
+  }
+
+
+
+}
