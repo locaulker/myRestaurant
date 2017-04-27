@@ -41,6 +41,10 @@
         margin-right: 10px;
       }
     }
+    .btn-app:link,
+    .btn-app:visited {
+      border: 0;
+    }
   }
 
   .steps-box:first-child {
