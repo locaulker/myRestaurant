@@ -1,0 +1,54 @@
+/* ------------------------------------------------ */
+// FEATURES SECTION
+/* ------------------------------------------------ */
+.section-testimonials {
+
+  background-size: cover;
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/public/images/testimonials/bg-customers.jpg);
+  background-attachment: fixed;
+
+  blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+
+    cite {
+      display: block;
+      font-size: 80%;
+      margin-top: 25px;
+      // line-height: 50px;
+
+      img {
+        height: 45px;
+        width: auto;
+        border-radius: 50%;
+        margin-right: 10px;
+        // float: left;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+
+  // blockquote:after {
+  //   content: "\201D";
+  //   font-size: 400%;
+  //   position: absolute;
+  //   right: 10px;
+  //   bottom: 0px;
+  // }
+
+}

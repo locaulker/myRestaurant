@@ -4,6 +4,19 @@
 .section-meals {
   padding: 0;
 
+
+  h2::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: transparent;
+    // width: 100px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+
   .meals-showcase {
     list-style: none;
     width: 100%;
