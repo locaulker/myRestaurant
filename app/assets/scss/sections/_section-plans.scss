@@ -1,0 +1,53 @@
+/* ------------------------------------------------ */
+// PLANS SECTION
+/* ------------------------------------------------ */
+.section-plans {
+  background-color: #f4f4f4;
+
+  .plan-box {
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+
+    div {
+      padding: 15px;
+      border-bottom: 1px solid #e8e8e8;
+
+      .plan-price {
+        font-size: 300%;
+        margin-bottom: 10px;
+        font-weight: 100;
+        color: #e67e22;
+
+        span {
+          font-size: 30%;
+          font-weight: 300;
+        }
+      }
+
+      .plan-price-meal {
+        font-size: 80%;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          padding: 5px 0;
+        }
+      }
+    }
+
+    div:first-of-type {
+      background-color: #fcfcfc;
+      border-radius: 8px 8px 0 0;
+    }
+
+    div:last-of-type {
+      text-align: center;
+      border-bottom: none;
+    }
+  }
+}
