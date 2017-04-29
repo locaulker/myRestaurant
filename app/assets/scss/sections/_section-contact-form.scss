@@ -1,0 +1,38 @@
+/* ------------------------------------------------ */
+// CONTACT FORM
+/* ------------------------------------------------ */
+.section-contact-form {
+
+  form {
+    width: 60%;
+    margin-left: 20%;
+
+    input[type=text],
+    input[type=email],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    select {
+      width: 100%;
+      display: block;
+      box-sizing: border-box;
+      padding: 0 10px;
+      height: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type=checkbox] {
+      margin: 10px 5px 10px 0;
+    }
+  }
+
+}
