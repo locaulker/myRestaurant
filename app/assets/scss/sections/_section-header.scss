@@ -55,7 +55,16 @@
   // CENTERING TEXT OVER IMAGE
   /* ------------------------------------------------ */
   .hero-text-box {
-    /**  METHOD 1 - Centering Text Over Image  **/
+    /**  STYLE 1 - Centering Text Over Image  **/
+    position: absolute;
+    width: 1140px;
+    margin: 0 auto;
+    top: 50%;
+    // left: 50%;
+    transform: translateY(-50%, -50%);
+
+
+    /**  STYLE 2 - Centering Text Over Image  **/
     // position: absolute; // Relative to the window viewport
     // top: 50%;
     // left: 0;
@@ -63,15 +72,6 @@
     // width: 100%;
     // text-align: center;
 
-    /**  METHOD 2 - Centering Text Over Image  **/
-    position: absolute;
-    width: 1140%;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%, -50%);
 
   }
-
-
-
 }

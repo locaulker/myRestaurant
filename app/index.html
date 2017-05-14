@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- <link rel="icon" href="img/favicon.ico"> -->
@@ -18,6 +18,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/queries.css">
+
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
@@ -35,19 +37,23 @@
 <!--  <div class="entire-content">-->
 
     <header class="site-header">
-      <nav class="row">
-        <img src="public/images/logo/logo-white.png" alt="Site Logo" class="logo">
-        <ul class="main-nav">
-          <li><a href="#">Food delivery</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Our cities</a></li>
-          <li><a href="#">Sign up</a></li>
-        </ul>
+      <nav>
+        <div class="row">
+          <img src="public/images/logo/logo-white.png" alt="Site Logo" class="logo">
+          <ul class="main-nav">
+            <li><a href="#">Food delivery</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Our cities</a></li>
+            <li><a href="#">Sign up</a></li>
+          </ul>
+        </div>
       </nav>
-      <div class="hero-text-box">
-        <h1>Goodbye Junk Food.<br>Hello super healthy meals.</h1>
-        <a class="btn btn-full" href="#">I'm Hungry</a>
-        <a class="btn btn-ghost" href="#">Show Me More</a>
+      <div class="row">
+        <div class="hero-text-box" id="hero-text-box">
+          <h1>Goodbye Junk Food.<br>Hello super healthy meals.</h1>
+          <a class="btn btn-full" href="#">I&rsquo;m Hungry</a>
+          <a class="btn btn-ghost" href="#">Show Me More</a>
+        </div>
       </div>
     </header>
 
@@ -55,7 +61,7 @@
       <div class="row">
         <h2>Get food fast &mdash; not fast food</h2>
 
-        <p class="lead-text">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+        <p class="lead-text">Hello, we&rsquo;re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
       </div>
 
       <div class="row">
@@ -67,7 +73,7 @@
         <div class="col span-1-of-4 col-content">
           <i class="ion-ios-stopwatch-outline icon-large"></i>
           <h3>Ready in 20 minutes</h3>
-          <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+          <p>You&rsquo;re only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
         </div><div class="col span-1-of-4 col-content">
           <i class="ion-ios-nutrition-outline icon-large"></i>
           <h3>100% organic</h3>
@@ -293,13 +299,13 @@
             <div>
               <h3>Premium</h3>
               <p class="plan-price">&#36;300 <span>/ month</span></p>
-              <p class="plan-price-meal">That’s only &#36;13.30 per meal</p>
+              <p class="plan-price-meal">That’s only &#36;13.30 pe meal</p>
             </div>
             <div>
               <ul>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access latest creations</li>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
               </ul>
             </div>
@@ -317,9 +323,9 @@
             </div>
             <div>
               <ul>
-                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days per month</li>
+                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access latest creations</li>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
               </ul>
             </div>
@@ -338,7 +344,7 @@
             <div>
               <ul>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
-                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8 am to 12 pm</li>
+                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8 to 12 pm</li>
                 <li><i class="ion-ios-close-empty icon-small"></i>&nbsp;</li>
                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
               </ul>
